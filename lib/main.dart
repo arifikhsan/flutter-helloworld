@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: HalamanHalo(),
+  ));
+}
+
+class HalamanHalo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Text('Hello World')
+    );
+  }
+}
