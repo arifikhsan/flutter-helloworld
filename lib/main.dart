@@ -10,7 +10,8 @@ class HalamanHalo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Hello World')
-    );
+        body: Center(
+      child: Text('Hello World'),
+    ));
   }
 }
